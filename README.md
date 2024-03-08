@@ -1,1 +1,6 @@
 This C program implements bubble sort and selection sort algorithms to sort two arrays (array1 and array2). It tracks the number of swaps made for each element during sorting and calculates the total number of swaps performed for each array. Finally, it displays the number of swaps made for each element and the total swaps for each array.
+
+Question: Please pay attention that the total # swaps is not equal to the sum of the swaps of each value listed above. Can you please think about the reason of this?
+
+Answer: Because of the way swaps are tallied in the sorting algorithms, the total number of swaps might not equal the sum of the swaps of each value mentioned above. Two items are swapped in bubble sort and selection sort in order to put them in the proper order. However, if an element needs to be shifted to its correct place across numerous algorithm cycles, it may be exchanged more than once throughout the sorting process.
+Thus, the total number of swaps indicates the total number of swap actions carried out during the entire sorting process, whereas the sum of the swaps for each value shows how many times each value was involved in a swap process. This takes into account the whole difficulty of the sorting process, not simply the motions of individual items, and includes swaps done for different elements at various times.
