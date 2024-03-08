@@ -1,2 +1,1 @@
-# Lab_Assignment_7
-Repository made for Lab Assignment 7 
+This C program implements bubble sort and selection sort algorithms to sort two arrays (array1 and array2). It tracks the number of swaps made for each element during sorting and calculates the total number of swaps performed for each array. Finally, it displays the number of swaps made for each element and the total swaps for each array.
